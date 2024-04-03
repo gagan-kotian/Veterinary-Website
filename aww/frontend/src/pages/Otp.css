@@ -1,0 +1,80 @@
+.otp {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+.wrapp {
+  height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 59, 160);
+  justify-items: center;
+}
+
+.otp-card {
+  text-align: center;
+  border-radius: 20px;
+  padding: 3rem;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+}
+
+.otp-card-inputs {
+  width: 100%; /* Use 100% to make it take up the full width of its container */
+  height: 60px;
+  font-size: 35px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto; /* Center the input horizontally */
+}
+
+/* .otp-card-inputs {
+  margin: 20px 20px;
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, auto);
+} */
+/* .otp-card-inputs input {
+  width: 50px;
+  height: 60px;
+  font-size: 35px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid black;
+} */
+
+.otp-card-inputs input:focus {
+  outline: 2px solid rgb(71, 59, 160);
+  border-color: transparent;
+}
+
+.otp-card button {
+  background-color: rgb(71, 59, 160);
+  padding: 15px 50px;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.otp-card button:hover {
+  opacity: 0.9;
+}
+
+.otp-card button[disabled] {
+  opacity: 0.6;
+  cursor: default;
+}

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+.des {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@font-face {
+  font-family: "Nudi Akshar";
+  src: url("NUDI01.TTF") format("truetype");
+}
+
+.kan {
+  font-family: "Nudi Akshar", sans-serif;
+  font-weight: bold;
+}
+td,
+th {
+  width: 100px;
+  border: 2px solid black;
+  padding: 2px;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td {
+  border: 2px solid black;
+  margin: 0;
+}
+
+body {
+  background: #f5f6fa;
+}
+
+.wrapper .sidebar {
+  background: rgba(5, 68, 104);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .logo {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wrapper .sidebar .logo img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.wrapper .sidebar .logo h3 {
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .logo p {
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+}
+
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #10558d;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li a .icon {
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+  color: #0c7db1;
+
+  background: white;
+  border-right: 2px solid rgba(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon {
+  color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before {
+  display: block;
+}
+
+.wrapper .section {
+  width: calc(100% - 225px);
+  margin-left: 225px;
+  transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar {
+  background: rgba(5, 68, 104);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.wrapper .section .top_navbar .hamburger i {
+  margin-right: 8.5em;
+}
+
+.wrapper .section .top_navbar .hamburger {
+  display: inline-flex;
+}
+
+.wrapper .section .top_navbar .hamburger a {
+  font-size: 28px;
+  color: #f4fbff;
+}
+
+.wrapper .section .top_navbar .hamburger h2 {
+  font-size: 22px;
+  color: #f4fbff;
+  padding-top: 5px;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover {
+  color: #a2ecff;
+}
+
+.wrapper .section .container {
+  margin: 30px;
+  background: #fff;
+  padding: 50px;
+  line-height: 28px;
+}
+
+body.active .wrapper .sidebar {
+  left: -225px;
+}
+
+body.active .wrapper .section {
+  margin-left: 0;
+  width: 100%;
+}
+.item a.dropdown {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+.item .sub-btn .sub-menu {
+  display: none;
+}
+.item .sub-btn:hover {
+  display: block;
+}
+
+.data {
+  margin-left: 18em;
+  margin-top: 3em;
+  text-align: left;
+  /* color:#10558d; */
+}
+
+.data h2 {
+  color: #10558d;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .wrapper .sidebar {
+    left: -225px; /* Hide the sidebar by default on smaller screens */
+  }
+
+  body.active .wrapper .sidebar {
+    left: 0; /* Show the sidebar when active on smaller screens */
+  }
+
+  .wrapper .section {
+    margin-left: 0; /* Adjust content width when sidebar is hidden on smaller screens */
+    width: 100%;
+  }
+
+  .wrapper .section .top_navbar .hamburger i {
+    margin-right: 0.5em; /* Adjust hamburger icon spacing on smaller screens */
+  }
+
+  .data {
+    margin-left: 0; /* Adjust margin for data on smaller screens */
+    margin-top: 2em;
+    text-align: center; /* Center-align text on smaller screens */
+  }
+}

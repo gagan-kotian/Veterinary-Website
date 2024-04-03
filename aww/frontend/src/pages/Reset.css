@@ -1,0 +1,75 @@
+.reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.wrapp {
+  background-color: rgb(71, 59, 160);
+  width: 100%;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.title-section {
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.para {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group .label-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.input-group input {
+  width: 100%;
+  background-color: none;
+  height: 40px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  background-color: rgb(71, 59, 160);
+  color: white;
+  font-size: 20px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.submit-btn a {
+  text-decoration: none;
+  color: white;
+}

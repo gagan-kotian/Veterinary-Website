@@ -1,0 +1,109 @@
+.container1 {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+  text-shadow: 0px 1px 2px;
+  /* background: linear-gradient(to bottom,#76D6EB 0%,#1D9CF8 68%) ;
+   */
+  background-color: rgb(30, 144, 255);
+}
+.bod {
+  background-color: #87cefa;
+}
+.log {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container2 {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 6px;
+  text-shadow: 1px 1px 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* background-color: #e2eeff;
+   */
+  background: linear-gradient(to bottom, #76d6eb 0%, #1d9cf8 68%);
+  border-radius: 20px;
+}
+.details {
+  height: 3em;
+  width: 95em;
+  margin-left: 0px;
+}
+.head {
+  text-align: center;
+  text-decoration: underline;
+}
+.h1 {
+  text-align: center;
+}
+/* #submit{
+    display: flex;
+    float: right;
+    margin-right: 5%;
+    background-color: #0e6cf1;
+    border-radius: 15px;
+    border:0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+    cursor:pointer;
+    box-shadow: 0px 5px rgb(2, 26, 80);
+    margin:2%;
+
+}
+#search-box{
+    display: flex;
+    float: right;
+    margin: 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px 0px 6px 10px;
+}
+#submit:active{
+    translate: 0 5px;
+  box-shadow: 0 0;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+th {
+  font-size: 22px;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  font-size: 19px;
+  font-weight: 200;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
