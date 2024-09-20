@@ -46,7 +46,7 @@ Install my-project with npm
   npm install
 
   cd ..
-  cd backend
+  cd server
   npm install
 
 ```
