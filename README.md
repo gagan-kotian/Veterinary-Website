@@ -14,6 +14,7 @@ The project was developed in collaboration with local authorities and veterinary
 
 Index
 - [Features](#Features)
+- [Screen Shots](#Screenshots)
 - [Installation](#installation)
 - [Environment Variables](##Environmentalvariables)
 
@@ -50,7 +51,21 @@ Install my-project with npm
   npm install
 
 ```
-    
+## Screenshots
+
+![Screenshot 1](https://i.postimg.cc/T2ghzrtV/aww1.png)
+![Screenshot 2](https://i.postimg.cc/Gmh2T6dK/aww4.png)
+![Screenshot 3](https://i.postimg.cc/yND8v9JS/aww5.png)
+![Screenshot 4](https://i.postimg.cc/T2VY7TPQ/aww6.png)
+![Screenshot 5](https://i.postimg.cc/bNLYPLkt/aww7.png)
+![Screenshot 6](https://i.postimg.cc/cC0Zy8Jh/aww8.png)
+![Screenshot 7](https://i.postimg.cc/fbSMxNFc/aww9.png)
+![Screenshot 8](https://i.postimg.cc/y6yshnfb/aww10.png)
+![Screenshot 9](https://i.postimg.cc/DyfFxsHy/aww11.png)
+![Screenshot 10](https://i.postimg.cc/TYkxF1vj/aww12.png)
+![Screenshot 10](https://i.postimg.cc/LXMFLZjS/aww13.png)
+
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
